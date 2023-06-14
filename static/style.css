@@ -1,0 +1,78 @@
+/*-----------------------------------------*/
+html, body, p{ 
+	margin:0; 
+	padding:0; 
+}
+body{
+	background: radial-gradient(rgb(189, 189, 189), rgb(44, 44, 44));
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+h3{
+	color: white;
+    font-style: oblique;;
+	font : 200% impact, futura, sans-serif;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-shadow: 2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 2px 0 black, 0 2px black
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+header{
+	padding:0px 0px;/*Marge verticale*/
+	background-color: black; /*Couleur de fond*/
+	text-align:center;/*texte centré*/
+	background-image: url(images/fondHeader.jpg);
+	background: linear-gradient(to right, transparent, rgb(0, 0, 0)), url("images/fondHeader.jpg");
+}
+
+.header{
+    height: 100px;
+	width:1593px;/*Taille de la colonne centrée moins le padding*/
+	margin: auto; /*centrer la colonne*/
+	border: solid;
+	border-color: #0f171f;
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+article{
+    text-align: left;
+    margin:40px 125px;
+	font : 125% futura, sans-serif;
+}
+
+.flotte{
+    float:right;
+}
+
+.jeu{
+    text-align: center;
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+.button{
+	background-color: white;
+	border: 2px solid black;
+	padding: 10px; /*Ecart de remplissage */
+	color: black;
+	border-radius: 15px;
+	transition: all 0.5s ease;
+	background: radial-gradient(rgb(211, 211, 211), rgb(122, 122, 122));
+}
+
+.button:hover{
+    background-color: black;
+	color: white;
+	cursor: pointer;
+	background: radial-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+
